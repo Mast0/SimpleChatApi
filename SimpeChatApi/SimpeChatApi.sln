@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleChatApi", "SimpleChatApi.csproj", "{4AB0C98F-D147-41A4-9B38-3CAD8DAF806C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleChatApi.Data", "..\SimpleChatApi.Data\SimpleChatApi.Data.csproj", "{7A59EC50-9C71-4822-87ED-64264AA3252C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleChatApi.Logic", "..\SimpleChatApi.Logic\SimpleChatApi.Logic.csproj", "{C9F79BD4-EB52-41BA-BB50-98F65DE9A1B6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7A59EC50-9C71-4822-87ED-64264AA3252C} = {7A59EC50-9C71-4822-87ED-64264AA3252C}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleChatApi.Test", "..\SimpleChatApi.Test\SimpleChatApi.Test.csproj", "{74534C83-87D8-4948-9FEE-D233864A9036}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AB0C98F-D147-41A4-9B38-3CAD8DAF806C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AB0C98F-D147-41A4-9B38-3CAD8DAF806C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AB0C98F-D147-41A4-9B38-3CAD8DAF806C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AB0C98F-D147-41A4-9B38-3CAD8DAF806C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A59EC50-9C71-4822-87ED-64264AA3252C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A59EC50-9C71-4822-87ED-64264AA3252C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A59EC50-9C71-4822-87ED-64264AA3252C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A59EC50-9C71-4822-87ED-64264AA3252C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9F79BD4-EB52-41BA-BB50-98F65DE9A1B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9F79BD4-EB52-41BA-BB50-98F65DE9A1B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9F79BD4-EB52-41BA-BB50-98F65DE9A1B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9F79BD4-EB52-41BA-BB50-98F65DE9A1B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74534C83-87D8-4948-9FEE-D233864A9036}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74534C83-87D8-4948-9FEE-D233864A9036}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74534C83-87D8-4948-9FEE-D233864A9036}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74534C83-87D8-4948-9FEE-D233864A9036}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB7558F0-836E-4A42-8FFC-17D4389D371B}
+	EndGlobalSection
+EndGlobal
